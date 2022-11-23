@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
+}
+header{
+  background-color: #369;
+  padding: 0 10rem 1rem 10rem;
+}
+header .top{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+}
+header .top a{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #fff;
+  margin: 0 0.5rem;
+}
+header .bottom{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+header .bottom h1{
+  font-size: 4rem;
+  padding-right: 2rem;
+}
+header .bottom ul{
+  display: flex;
+  list-style: none;
+}
+header .bottom ul li a{
+  display: inline-block;
+  padding: 0.5rem;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#background{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(images/underwater1.jpg) no-repeat scroll center / cover;s
+}
+.center .top{
+  font-size: 32px;
+
+}
+.top h1,p,a{
+  text-align: center;
+}
+.center{
+  width: 400px;
+  text-align: center;
+}
+.center .top a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  width: 200px;
+  border: 1px solid;
+  justify-content: center;
+  padding: 0.5rem;
+}
+#content{
+  text-align: center;
+  padding: 1rem 16rem;
+}
+#content .top{
+  padding: 3rem 2rem 1rem 2rem;
+}
+#content .bottom{
+  padding-top: 6px;
+}
+#content .top p{
+  padding: 8px 0;
+}
+.stars {
+  text-align: center;
+  padding-top: 22px;
+}
+.stars p{
+  padding-top: 5px;
+}
